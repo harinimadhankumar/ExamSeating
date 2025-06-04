@@ -1,0 +1,212 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  background-image: url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fixed background image */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/*.container {
+  max-width: 900px;
+  flex-direction: 50px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+*/
+/* App.css */
+
+/* Main container styling */
+.container {
+  max-width: 1200px; /* Increase width of the container */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form container styling */
+#form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Form input styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input, .form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Seating plan hall and row styling */
+h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Row styling */
+#seating-form {
+  margin-top: 20px;
+}
+
+/* Seating layout styling */
+.seating-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Row and column seat styling */
+.seating-plan .row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.seating-plan .row div {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  width: 80px; /* Adjust width for each seat */
+  margin: 5px;
+}
+
+/* Seat background color */
+.seating-plan .row div {
+  background-color: #e9f7ef; /* Light green background */
+}
+
+.seating-plan .row div.empty-seat {
+  background-color: #f8d7da; /* Light red background for empty seats */
+  color: #721c24;
+}
+
+/* Adjust hall layout */
+.hall {
+  padding: 20px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type='number'],
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  
+}
+
+
+button:hover {
+  background-color: #218838;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.summary {
+ margin-top: 20px; 
+ font-weight: bold; 
+ background-color:#f8f9fa; 
+ padding:15px; 
+ border-radius:5px; 
+ text-align:center; 
+}
+
+.hall-summary {
+ margin-top: 10px; 
+ font-style: italic; 
+ color:#030303; 
+ text-align:center; 
+}
+
+.seating-plan-container {
+ margin-top: 20px; 
+}
+
+h3 {
+ text-align:center; 
+ margin-top:20px; 
+ color:#333; 
+}
